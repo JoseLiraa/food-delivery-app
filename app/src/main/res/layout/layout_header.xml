@@ -61,6 +61,7 @@
             android:layout_height="25dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_bag"
+            android:contentDescription="@string/cart_icon"
             app:tint="@color/text_primary" />
     </com.google.android.material.card.MaterialCardView>
 
@@ -81,8 +82,17 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_gravity="center"
+            android:contentDescription="@string/notification_icon"
             android:src="@drawable/ic_notification"
             app:tint="@color/text_primary" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/notification_badge" />
 
     </com.google.android.material.card.MaterialCardView>
 

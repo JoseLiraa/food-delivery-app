@@ -3,4 +3,6 @@
     <string name="search_text">What are you craving?</string>
     <string name="header_text">Deliver to</string>
     <string name="header_location">San Salvador</string>
+    <string name="cart_icon">Cart icon</string>
+    <string name="notification_icon">Notification icon</string>
 </resources>
