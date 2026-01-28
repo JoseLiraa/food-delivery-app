@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginTop="20dp"
     android:layout_marginHorizontal="16dp">
 
@@ -34,13 +35,15 @@
             android:textColor="@color/text_secondary"
             android:textSize="16sp" />
 
-        <TextView
+        <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/header_location"
-            android:textColor="@color/text_primary"
-            android:textStyle="bold"
-            android:textSize="20sp" />
+            android:entries="@array/location_array"
+            android:spinnerMode="dropdown"
+            android:overlapAnchor="true"
+            android:backgroundTint="@color/brand_blue"
+            android:theme="@style/BoldText"
+            android:layout_marginStart="-7dp" />
 
     </LinearLayout>
 

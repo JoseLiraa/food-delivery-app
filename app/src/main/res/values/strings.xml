@@ -5,4 +5,11 @@
     <string name="header_location">San Salvador</string>
     <string name="cart_icon">Cart icon</string>
     <string name="notification_icon">Notification icon</string>
+
+    <string-array name="location_array">
+        <item>San Salvador</item>
+        <item>Santa Ana</item>
+        <item>San Miguel</item>
+        <item>La Libertad</item>
+    </string-array>
 </resources>
